@@ -1,0 +1,38 @@
+[versions]
+agp = "8.3.0-alpha05"
+guava = "32.1.2-android"
+kotlin = "1.9.10"
+core-ktx = "1.12.0"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+kotlinpoet = "1.14.2"
+lifecycle-runtime-ktx = "2.6.2"
+activity-compose = "1.7.2"
+compose-ui = "1.5.1"
+xmlpull = "1.1.3.1"
+
+[libraries]
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+kotlinpoet = { module = "com.squareup:kotlinpoet", version.ref = "kotlinpoet" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+ui = { group = "androidx.compose.ui", name = "ui", version.ref="compose-ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics", version.ref="compose-ui" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref="compose-ui" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref="compose-ui" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest", version.ref="compose-ui" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4", version.ref="compose-ui" }
+material3 = { group = "androidx.compose.material3", name = "material3", version="1.1.2" }
+xpp3 = { module = "xpp3:xpp3", version = "1.1.4c" }
+xmlpull = { module = "xmlpull:xmlpull", version.ref = "xmlpull" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+
