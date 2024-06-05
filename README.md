@@ -1,14 +1,17 @@
+> [!WARNING]
+> This library won't be updated anymore, use [compose-font-icons]([tclement0922/compose-font-icons](https://github.com/tclement0922/compose-font-icons)) instead
+
 # Material Symbols for Jetpack Compose
 
 ImageVector version of the Material Symbols icons. This library is created by converting xml icons from 
 [the material-design-icons repo](https://github.com/google/material-design-icons/tree/master/symbols/android)
 using a modified version the 
 [AndroidX material icons generator](https://github.com/androidx/androidx/tree/androidx-main/compose/material/material/icons/)
-Gradle module. Only for AndroidX Compose, it's not (yet) compatible with JetBrains Compose Multiplatform.
+Gradle module. Only for AndroidX Compose, it's not ~~(yet)~~ compatible with JetBrains Compose Multiplatform.
 
 # Usage
 
-This library is for now only available in GitHub Packages. 
+This library is ~~for now~~ only available in GitHub Packages. 
 
 For Gradle Dsl:
 
