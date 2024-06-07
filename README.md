@@ -1,5 +1,5 @@
 > [!WARNING]
-> This library won't be updated anymore, use [compose-font-icons]([tclement0922/compose-font-icons](https://github.com/tclement0922/compose-font-icons)) instead
+> This library won't be updated anymore, use [compose-font-icons](https://github.com/tclement0922/compose-font-icons) instead
 
 # Material Symbols for Jetpack Compose
 
